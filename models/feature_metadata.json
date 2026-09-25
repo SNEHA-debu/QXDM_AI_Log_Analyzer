@@ -1,0 +1,16 @@
+{
+    "feature_columns": [
+        "total_events",
+        "total_failures",
+        "avg_retransmission",
+        "failure_rate",
+        "authentication_failures",
+        "handover_failures",
+        "total_retransmissions",
+        "nlp_authentication_count",
+        "nlp_connection_count",
+        "nlp_mobility_count",
+        "nlp_registration_count",
+        "nlp_retransmission_count"
+    ]
+}

@@ -1,0 +1,8 @@
+2026-09-24 10:00:00.100 | LTE | NAS | Authentication Failure | UE=2001 | Cause=21
+2026-09-24 10:00:01.200 | LTE | NAS | Authentication Failure | UE=2001 | Cause=21
+2026-09-24 10:00:02.300 | LTE | NAS | Authentication Failure | UE=2001 | Cause=21
+2026-09-24 10:00:03.400 | LTE | NAS | Authentication Failure | UE=2001 | Cause=21
+2026-09-24 10:00:04.500 | NR | RRC | Handover Failure | UE=2001 | Cause=HO_FAILURE
+2026-09-24 10:00:05.600 | LTE | MAC | UL Retransmission | UE=2001 | Count=12
+2026-09-24 10:00:06.700 | LTE | MAC | UL Retransmission | UE=2001 | Count=15
+2026-09-24 10:00:07.800 | LTE | NAS | Registration Reject | UE=2001 | Cause=15
