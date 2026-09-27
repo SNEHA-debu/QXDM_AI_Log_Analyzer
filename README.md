@@ -223,3 +223,73 @@ synthetic QXDM-style LTE/5G modem logs.
 
 It does not contain proprietary Qualcomm QXDM data and should
 not be treated as a validated production diagnostic system.
+---
+
+## Development Notebooks
+
+The project development is organized into two notebooks.
+
+### 1. ML & NLP Development
+
+`notebooks/01_QXDM_ML_NLP_Development.ipynb`
+
+This notebook covers:
+
+- Synthetic QXDM-style log generation
+- Log parsing and preprocessing
+- Telecom event extraction
+- UE-level feature engineering
+- TF-IDF feature extraction
+- Logistic Regression event classification
+- Isolation Forest anomaly detection
+- Random Forest root-cause category prediction
+- Model evaluation
+- Feature-importance analysis
+- Model artifact persistence
+
+### 2. GenAI & API Integration
+
+`notebooks/02_QXDM_GenAI_API_Integration.ipynb`
+
+This notebook covers:
+
+- Loading saved model artifacts
+- Reusable inference pipeline
+- Qwen2.5-1.5B-Instruct integration
+- Prompt engineering and GenAI guardrails
+- Engineer-friendly technical explanations
+- FastAPI REST API
+- HTTP POST inference testing
+- End-to-end JSON response validation
+
+### End-to-End Development Flow
+
+Synthetic QXDM-style Logs
+        |
+        v
+Parsing & Preprocessing
+        |
+        v
+Feature Engineering
+        |
+        v
+TF-IDF / NLP Classification
+        |
+        v
+Anomaly Detection
+        |
+        v
+Random Forest Prediction
+        |
+        v
+Qwen GenAI Explanation
+        |
+        v
+FastAPI
+        |
+        v
+HTTP JSON Response
+
+The notebooks document the experimental development process,
+while the `src/` directory contains the modular implementation
+for reusable inference and API execution.
